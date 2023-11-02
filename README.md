@@ -9,9 +9,9 @@ by replacing instances of `old_org_name` with `new_org_name`.
 
 ```
 cd ~/Projects
-wget https://raw.githubusercontent.com/khulnasoft-lab/renaming_an_organization/develop/update_git_repos.sh
-chmod +x update_git_repos.sh
-./update_git_repos.sh W3Security W3Sec
+wget https://raw.githubusercontent.com/khulnasoft-lab/renaming_an_organization/develop/update_repos.sh
+chmod +x update_repos.sh
+./update_repos.sh W3Security W3Sec
 ```
 
 ## License ##
