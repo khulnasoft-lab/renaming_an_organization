@@ -8,7 +8,10 @@ directly inside the specified directory.  The git remotes are updated
 by replacing instances of `old_org_name` with `new_org_name`.
 
 ```
-update_repos.sh old_org_name new_org_name directory
+cd ~/Projects
+wget https://raw.githubusercontent.com/khulnasoft-lab/renaming_an_organization/develop/update_git_repos.sh
+chmod +x update_git_repos.sh
+./update_git_repos.sh W3Security W3Sec
 ```
 
 ## License ##
